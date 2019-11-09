@@ -33,8 +33,15 @@
 .ul-result{
     width: 100%;
     background-color: #80808026;
-    margin-top: 32px;
+    margin-top: 30px;
     padding-top: 4px;
     position: absolute;
     z-index: 1000;
+}
+.a-result{
+    color:white;
+}
+.ul-product{
+    margin-right: 27px;
+    padding-bottom: 40px;
 }

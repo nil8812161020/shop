@@ -3,13 +3,11 @@
 {% block content %}
     <div class="container">
         <div class="table-bordered tabel-margintop-form">
-            <p>{{ message }}</p>
              <div class="row text-right">
                     <div class="col-9">
-                        <h4 class="text-center mt-3">افزودن محصول</h4>
                         <div class="table table-marginright w-75 rounded bg-light text-secondary">
                            <img src="{{ product.image.url }}">
-                            <ul>
+                            <ul class="ul-product">
                                 <li class="mt-4">نام محصول‌‌ :  <b>{{ product.name }}</b></li>
                                 <li class="mt-4">دسته بندی :  <b>{{ product.category }}</b></li>
                                 <li class="mt-4">قیمت محصول :  <b>{{ product.price }}</b></li>
