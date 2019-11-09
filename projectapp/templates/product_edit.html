@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+   <div class="container">
+        <div class="table-bordered tabel-margintop-form table-responsive">
+            <p>{{ message }}</p>
+             <div class="row text-right">
+                    <div class="col-9">
+                        <h4 class="text-center mt-3">افزودن محصول</h4>
+                        <div class="table table-marginright w-75 rounded bg-light text-secondary">
+                           <form action="{% url 'edit_product' object.id %}" method="post" enctype="multipart/form-data">
+
+                               {% csrf_token %}
+                               <div class="form-group">
+                                   <label class="mb-3" >نام محصول</label>
+                                   <input type="text" class="form-control" name="product_name" value="{{ object.name }}">
+                               </div>
+                               <div class="form-group">
+                                    <label class="mb-3">قیمت محصول</label>
+                                    <input type="number" class="form-control"  name="product_price" value="{{ object.price }}" required>
+                               </div>
+                               <div class="form-group" >
+                                    <label class="mb-3">درصد تخفیف</label>
+                                    <input type="text" class="form-control"  name="product_discount" value="{{ object.discount }}" >
+                               </div>
+                               <div class="form-group " >
+                                    <label class="mb-3">دسته بندی</label>
+
+                                        <select class="custom-select" id="select01" name="id">
+                                            <option selected>انتخاب</option>
+                                            {% for category in category %}
+                                                 <option value="{{ category.id}}">{{ category }}</option>
+                                            {% endfor %}
+                                        </select>
+                               </div>
+                               <div class="form-group" >
+                                    <label class="mb-3">قیمت تخفیف خورده</label>
+                                    <input type="number" class="form-control" name="price_discount" value="{{ object.price_discount }}">
+                               </div>
+                               <div class="form-group" >
+                                    <label >توضیحات</label>
+                                   <textarea type="text" name="product_description" class="mt-3 w-100 h-50" rows="5" id="comment" >{{ object.description}}</textarea>
+                               </div>
+                               <div class="form-group" >
+                                    <label class="mt-3">بارگذاری تصویر</label>
+                                    <input type="file" name="product_image" value="fileupload" id="fileupload" >
+                                    <img src="{% if object.image  %}{{ object.image.url }}{% else %}{% static 'media/media/product_8.png' %}{% endif %}" class="img-responsive">
+                               </div>
+                               <input type="submit" class="btn btn-success ml-3" value="ویرایش">
+                           </form>
+                        </div>
+                    </div>
+              </div>
+        </div>
+   </div>
+
+{% endblock %}

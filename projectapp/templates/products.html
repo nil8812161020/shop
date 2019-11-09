@@ -1,0 +1,46 @@
+{% extends 'base_account.html' %}
+{% block content %}
+
+ <!-- main container-->
+<div class="container">
+   <div class="row ">
+      <div class="table-responsive">
+           <table class="table table-bordered text-center ">
+               <thead class="thead-light">
+                   <tr>
+                       <th scope="col">#</th>
+                       <th scope="col">نام محصول</th>
+                       <th scope="col">قیمت</th>
+                       <th scope="col">تخفیف</th>
+                       <th scope="col">قیمت تخفیفی</th>
+                       <th scope="col">دسته بندی</th>
+                       <th scope="col">توضیحات</th>
+                       <th scope="col">تصویر محصول</th>
+                       <th scope="col">عملیات</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   {% for product in products %}
+                   <tr scope="row">
+                       <td>{{ product.id }}</td>
+                       <td>{{ product.name }}</td>
+                       <td>{{ product.price }}</td>
+                       <td>{{ product.discount }}</td>
+                       <td> {{ product.price_discount }}</td>
+                       <td>{{ product.category.name }}</td>
+                       <td>{{ product.description }}</td>
+                       <td><img src="{{ product.image.url }}" width="100px" class="mr-3 ml-3"></td>
+                       <td>
+                           <a href="{% url 'edit_product' product.id %}" type="button" class="btn btn-success "><i class="fa fa-pencil" aria-hidden="true">ویرایش</i></a>
+                           <a  href="{% url 'delete_product' product.id %}" class="btn btn-danger ui-icon-trash" id="delete-object"  onclick="return confirm('آیا شما از حذف محصول اطمینان دارید؟')" >حذف</a>
+                       </td>
+                   </tr>
+               {% endfor %}
+               </tbody>
+               <tfoot></tfoot>
+          </table>
+       </div>
+   </div>
+</div>
+
+{% endblock %}

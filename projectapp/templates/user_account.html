@@ -1,0 +1,58 @@
+{% extends 'base_account.html' %}
+{% block content %}
+
+ <!-- main container-->
+ <div class="o-grid">
+    <div class="row"><div class="col-12">
+        <div class="o-headline o-headline--profile">
+            <span>اطلاعات شخصی</span>
+        </div>
+        <div class="c-profile-stats">
+            <p class="* text-success *">{{ message }}</p>
+            <div class="c-profile-stats__row">
+                <div class="c-profile-stats__col">
+                    <p><span>نام کاربری:</span>
+                      {{ object.username }}
+                    </p>
+                </div>
+                <div class="c-profile-stats__col">
+                    <p><span>نام و نام خانوادگی :</span>
+                        <span class="c-profile-stats__value">{{ object.first_lastname }}</span>
+                    </p>
+                </div>
+            </div>
+            <div class="c-profile-stats__row">
+                <div class="c-profile-stats__col">
+                    <p><span>موبایل:</span>
+                        {{ object.mobile }}
+                    </p>
+                </div>
+                <div class="c-profile-stats__col">
+                    <p><span>ایمیل:</span>
+                        {{ object.email }}
+                     </p>
+                </div>
+            </div>
+            <div class="c-profile-stats__row">
+                <div class="c-profile-stats__col">
+                    <p><span>دریافت خبرنامه:</span>
+                        خیر
+                    </p>
+                </div>
+                <div class="c-profile-stats__col">
+                    <p><span>شماره کارت:</span>
+                        <span class="c-profile-stats__value">-</span>
+                    </p>
+                </div>
+            </div>
+            <div class="c-profile-stats__action">
+                <a href="{% url 'update_user' pk=object.id %}" class="btn-link-spoiler btn-link-spoiler--edit">ویرایش
+                    اطلاعات شخصی
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+{% endblock %}

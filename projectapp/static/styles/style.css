@@ -1,0 +1,29 @@
+.tabel-margintop-form{
+   margin-top:50px;
+}
+.table-marginright{
+   margin-right: 5rem!important;
+}
+.search{
+    float: left;
+    top: 31%;
+    left: 28%;
+}
+.search-btn{
+   float: left;
+   width: 10%;
+
+}
+.logo{
+   width: 13% !important;
+
+}
+.menu{
+   width: 43% !important;
+}
+.li-result{
+    margin-top:15% !important;
+}
+.ul-result{
+    background-color: #80808026;
+}

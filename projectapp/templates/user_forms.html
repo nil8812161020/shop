@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block content %}
+
+
+   <div class="container">
+        <div class="table-bordered tabel-margintop-form">
+            <p>{{ message }}</p>
+             <div class="row text-right">
+                    <div class="col-6">
+                        <h4 class="text-center mt-3">فرم ثبت نام</h4>
+                        <div class="table table-marginright w-75 rounded bg-light text-secondary">
+                           <form action="{% url 'create_user' %}" method="post" >
+
+                               {% csrf_token %}
+                               {{form.as_p}}
+                               <input type="submit" class="btn btn-success " value="ثبت">
+                           </form>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-center mt-3">ورود به ناحیه کاربری</h4>
+                        <div class="table table-marginright w-75 rounded bg-light text-secondary">
+                           <form action="." method="post" >
+
+                               {% csrf_token %}
+
+                                   {{ form.username}}
+                                   {{ form.password}}
+
+
+                               <input type="submit" class="btn btn-success ml-3" value="ورود">
+                           </form>
+                        </div>
+                    </div>
+              </div>
+        </div>
+   </div>
+
+{% endblock %}

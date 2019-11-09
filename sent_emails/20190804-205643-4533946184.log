@@ -1,0 +1,38 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: nil.rezaee88@yahoo.com
+Date: Sun, 04 Aug 2019 20:56:43 -0000
+Message-ID: 
+ <156495220309.3214.13248042851703806244@114.1.168.192.in-addr.arpa>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/reset/res<!-- templates/registration/password_reset_confirm.html -->
+{% extends 'base.html' %}
+
+{% block title %}Enter new password{% endblock %}
+
+{% block content %}
+<h1>Set a new password!</h1>
+<form method="POST">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Change my password">
+</form>
+{% endblock %}et/OA/58l-11a3720d8b949b617197/
+
+Your username, in case you've forgotten: admin8
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

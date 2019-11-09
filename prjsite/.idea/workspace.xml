@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e5c7285-b82e-4a28-b2d5-ecad845ee30f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>../static/</find>
+      <find>static</find>
+      <find>dashboard</find>
+      <find>fa fa-user</find>
+      <find>url</find>
+      <find>class=&quot;fa fa-user&quot;</find>
+      <find>ba</find>
+      <find>navbar_user</find>
+      <find>.o-grid .row</find>
+      <find>c-profile-stats__action</find>
+      <find>c-profile-stats</find>
+      <find>c-profile-menu__items</find>
+      <find>c-profile-box</find>
+      <find>menu_item has-children</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{% static</replace>
+      <replace>user_account</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/porjectapp/url.py" />
+        <option value="$PROJECT_DIR$/projectapp/url.py" />
+        <option value="$PROJECT_DIR$/projectapp/template/sample_app.html" />
+        <option value="$PROJECT_DIR$/prjsite/urls.py" />
+        <option value="$PROJECT_DIR$/projectapp/static/styles/bootstrap4/style.css" />
+        <option value="$PROJECT_DIR$/projectapp/template/index.html" />
+        <option value="$PROJECT_DIR$/projectapp/template/base.html" />
+        <option value="$PROJECT_DIR$/projectapp/template/user_account.html" />
+        <option value="$PROJECT_DIR$/projectapp/template/user_form.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/projectapp/ts.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/user_form2.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/user_form.html" />
+        <option value="$PROJECT_DIR$/projectapp/static/styles/44746702.css" />
+        <option value="$PROJECT_DIR$/projectapp/templates/error.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/test.html" />
+        <option value="$PROJECT_DIR$/projectapp/models.py" />
+        <option value="$PROJECT_DIR$/projectapp/templates/userform_bootstrap.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/projectapp/static/styles/style.css" />
+        <option value="$PROJECT_DIR$/projectapp/templates/user_forms.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/base_account.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/user_account.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/index.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/comfirm_edit_user.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/contact.html" />
+        <option value="$PROJECT_DIR$/projectapp/templates/users_edit.html" />
+        <option value="$PROJECT_DIR$/projectapp/forms/usersform.py" />
+        <option value="$PROJECT_DIR$/projectapp/function/customsave.py" />
+        <option value="$PROJECT_DIR$/projectapp/templates/user_pure_html.html" />
+        <option value="$PROJECT_DIR$/projectapp/views.py" />
+        <option value="$PROJECT_DIR$/projectapp/urls.py" />
+        <option value="$PROJECT_DIR$/prjsite/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prjsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prjsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paniz\AppData\Local\Programs\Python\Python37\Scripts\prjsite\prjsite\projectapp\templates" />
+      <recent name="C:\Users\paniz\AppData\Local\Programs\Python\Python37\Scripts\prjsite\prjsite\projectapp\templates\projectapp" />
+      <recent name="$PROJECT_DIR$/projectapp/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="prjsite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="prjsite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e5c7285-b82e-4a28-b2d5-ecad845ee30f" name="Default Changelist" comment="" />
+      <created>1562312848403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562312848403</updated>
+      <workItem from="1562312849666" duration="7089000" />
+      <workItem from="1562550288800" duration="8062000" />
+      <workItem from="1562639652492" duration="3112000" />
+      <workItem from="1562651174696" duration="8000000" />
+      <workItem from="1562719086460" duration="6119000" />
+      <workItem from="1562726304501" duration="2058000" />
+      <workItem from="1562728435087" duration="9707000" />
+      <workItem from="1562787488553" duration="413000" />
+      <workItem from="1562788011517" duration="1603000" />
+      <workItem from="1562790063410" duration="936000" />
+      <workItem from="1563015682741" duration="382000" />
+      <workItem from="1563016089875" duration="8635000" />
+      <workItem from="1563065317126" duration="606000" />
+      <workItem from="1563066284461" duration="16275000" />
+      <workItem from="1563148857673" duration="11909000" />
+      <workItem from="1563236799106" duration="19789000" />
+      <workItem from="1563324094549" duration="11350000" />
+      <workItem from="1563410118623" duration="7037000" />
+      <workItem from="1563477496037" duration="138000" />
+      <workItem from="1563584423917" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123276000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19579288" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49917898" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.500821" side_tool="true" weight="0.31543624" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="manage.py@prjsite" order="4" weight="0.32242227" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49917898" weight="0.32569557" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3296355" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49917898" weight="0.31914893" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Database" order="0" weight="0.14644013" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18689321" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49917898" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.500821" side_tool="true" weight="0.31543624" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="manage.py@prjsite" order="4" weight="0.32242227" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49917898" weight="0.32733223" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3296355" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49917898" visible="true" weight="0.31914893" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.14644013" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/projectapp/apps.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/management/base.py" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/sample_app.html" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/template/base.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/77fa3d55-cc6b-4064-94d3-158e609b6ebf/console.sql" />
+    <entry file="file://$USER_HOME$/Lib/site-packages/django/core/handlers/exception.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/17aeb495-6e03-44f0-9ee8-6883c801b81a/console.sql" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/dashboard.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/static/styles/bootstrap4/style.css" />
+    <entry file="file://$PROJECT_DIR$/prjsite/urls.py" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/projectapp/ts.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/contact.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/categories.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/single.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/user_account.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/template/user_form.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/migrations/0007_users_email.py" />
+    <entry file="das://17aeb495-6e03-44f0-9ee8-6883c801b81a/schema/main/table/projectapp_users" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectapp/static/styles/44746702.css" />
+    <entry file="das://10f7a28f-bb46-4a94-b432-35f8aace5c00/schema/main/table/projectapp_users" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/error.html" />
+    <entry file="file://$USER_HOME$/Lib/site-packages/django/core/checks/urls.py" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/userform_bootstrap.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/static/styles/style.css" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/comfirm_edit_user.html" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17912" column="32" selection-start-line="17912" selection-start-column="25" selection-end-line="17912" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/base_account.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/contact.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/single.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/test-profile.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/function/customsave.py" />
+    <entry file="file://$PROJECT_DIR$/projectapp/forms/usersform.py" />
+    <entry file="file://$PROJECT_DIR$/projectapp/models.py" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/user_account.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/users_edit.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/user_forms.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/urls.py" />
+    <entry file="das://7ff719d6-8925-408c-9f0d-c22f260fcc77/schema/main/table/projectapp_users" />
+    <entry file="file://$PROJECT_DIR$/projectapp/templates/user_pure_html.html" />
+    <entry file="file://$PROJECT_DIR$/projectapp/views.py" />
+    <entry file="file://$PROJECT_DIR$/prjsite/settings.py" />
+  </component>
+</project>
