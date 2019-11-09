@@ -34,10 +34,10 @@
               },
               dataType:'json',
               success:function (data) {
-                  if(data){
+                  if(data && data!= ''){
                            $('#result').empty();
                            for (i in data) {
-                               $('#result').append('<a href="/prj/product/show/'+data[i].id+'"><li class="li-result" >'+ data[i].name +'</li>'+'</a>');
+                               $('#result').append('<li class="li-result" ><a href="/prj/product/show/'+data[i].id+'">'+ data[i].name +'</a></li>');
                            }
                   }
                   else{
@@ -77,7 +77,7 @@
 						</div>
                         <div class="search">
                              <input type="text" class="form-control search" name="q"  id="search" placeholder="جستجو محصول...">
-                             <ul id="result" class="table-bordered ul-result">
+                             <ul id="result" class="ul-result">
                                  <li></li>
                              </ul>
                         </div>

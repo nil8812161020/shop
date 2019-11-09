@@ -22,8 +22,19 @@
    width: 43% !important;
 }
 .li-result{
-    margin-top:15% !important;
+
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.li-result:hover{
+
+  background-color: rgba(105,114,124,0.48);
 }
 .ul-result{
+    width: 100%;
     background-color: #80808026;
+    margin-top: 32px;
+    padding-top: 4px;
+    position: absolute;
+    z-index: 1000;
 }
