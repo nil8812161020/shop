@@ -1,7 +1,7 @@
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render,redirect
 from django.urls import reverse
-from projectapp.models import Users,Product,Category
+from projectapp.models import Users,Product,Category,Cart,Profile,Order
 from projectapp.function import customsave,customproduct,customcategory
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
@@ -150,7 +150,7 @@ def delete_product(request,pk):
     try:
         obj_product = Product.objects.filter(id=pk)
         obj_product.delete()
-        messages.info(request,'حصول با موفقیت حذف شد!!')
+        messages.info(request,'محصول با موفقیت حذف شد!!')
         return redirect('products')
     except Exception as e:
         return render(request, 'error.html', {'message': e} )
@@ -208,3 +208,12 @@ def delete_category(request,pk):
         return redirect('categories')
     except Exception as e:
         return render(request, 'error.html', {'message': e} )
+
+#shopping cart
+def add_cart(request,pk=None):
+    product = Product.objects.get(id=pk)
+    Order.objects.create(product=product,is_ordered=True)
+    items=Order.objects.filter(product=product)
+    for item in items:
+        Cart.objects.create(order=item)
+    return render(request,'cart.html',{'product':product})

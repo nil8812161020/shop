@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5c7285-b82e-4a28-b2d5-ecad845ee30f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectapp/migrations/0009_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectapp/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/static/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectapp/templates/display-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/templates/display-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,16 +33,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
@@ -60,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -202,6 +210,7 @@
       <workItem from="1573028006859" duration="9391000" />
       <workItem from="1573126232173" duration="8456000" />
       <workItem from="1573334103153" duration="1070000" />
+      <workItem from="1573658121773" duration="7019000" />
     </task>
     <servers />
   </component>
@@ -222,7 +231,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

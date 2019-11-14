@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.conf import settings
 
 
 # Create your models here.
@@ -54,3 +55,31 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+#profile
+class Profile(models.Model):
+    user = models.OneToOneField(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
+    product = models.ManyToManyField(Product,blank=True)
+
+
+#order
+class Order(models.Model):
+   product    = models.ForeignKey(Product,on_delete=models.SET_NULL,null=True)
+   is_ordered = models.BooleanField(default=False)
+   date_added = models.DateTimeField(auto_now=True)
+   date_ordered = models.DateTimeField(null=True)
+
+   def __str__(self):
+       return self.product.name
+
+#shoping cart
+class Cart(models.Model):
+    order = models.ManyToManyField(Order)
+    owner = models.ForeignKey(Profile,on_delete=models.SET_NULL,null=True)
+    is_ordered = models.DateTimeField(default=False)
+    date_ordered = models.DateTimeField(auto_now=True)
+
+    def get_cart_items(self):
+        return self.order.all()
+
+
